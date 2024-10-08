@@ -2,6 +2,7 @@ from supabase import create_client, Client
 import socket
 import sys
 
+
 # Supabase configuration
 url = "https://jntnkbzdcznzdvbaurwe.supabase.co/"  # Replace with your Supabase URL
 key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpudG5rYnpkY3puemR2YmF1cndlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgzMDY1MjgsImV4cCI6MjA0Mzg4MjUyOH0.3DU3i-oKXX0mhEVvZXtbyUZjctsCN20DDPrzQiRUwPs"   # Replace with your Supabase Key
