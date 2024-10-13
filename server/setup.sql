@@ -1,6 +1,7 @@
 -- Supabase AI is experimental and may produce incorrect answers
 -- Always verify the output before executing
 
+
 -- Users table
 create table
   Users (
