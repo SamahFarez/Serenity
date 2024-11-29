@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="../Css/reservation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="reservation">
+            <div class="reservation-container">
+                <div class="reservation-image">
+                    <img src="../Images/reservation.jpg" alt="Ambiance relaxante de Serenity Spa">
+                </div>
+                <div class="reservation-form">
+                    <h1>Réservez votre moment de Serenity</h1>
+                    <form id="reservation-form">
+                        <div class="form-group">
+                            <label for="service">Service</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Choisissez un service</option>
+                                <option value="facial">Facial Spa Treatment</option>
+                                <option value="back">Back Massage</option>
+                                <option value="foot">Foot Massage</option>
+                                <option value="thai">Thai Stone Massage</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Heure</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="personnel">Personnel</label>
+                            <select id="personnel" name="personnel" required>
+                                <option value="" disabled selected>Choisissez un personnel</option>
+                                <option value="john">John Doe</option>
+                                <option value="jane">Jane Smith</option>
+                                <option value="mark">Mark Johnson</option>
+                            </select>
+                        </div>
+                        <button type="submit">Confirmer la réservation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
