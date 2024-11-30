@@ -16,14 +16,26 @@
                 </div>
                 <div class="signup-form">
                     <h1>Inscription</h1>
-                    <form id="signup-form">
+                    <form id="signup-form" action="../server/signup.php" method="post">
                         <div class="form-group">
                             <label for="name">Nom complet</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="num_tel">Numéro de téléphone</label>
+                            <input type="text" id="num_tel" name="num_tel" placeholder="Numéro de téléphone" required pattern="^\+?[0-9]{10,15}$">
+                        </div>
+                        <div class="form-group">
+                            <label for="adresse">Adresse</label>
+                            <input type="text" id="adresse" name="adresse" required>
                         </div>
                         <div class="form-group">
                             <label for="password">Mot de passe</label>
@@ -42,4 +54,3 @@
     </main>
 </body>
 </html>
-
