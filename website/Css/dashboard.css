@@ -1,0 +1,26 @@
+.service {
+    text-align: center;
+    margin-bottom: 2rem; /* Optional for spacing between services */
+}
+
+section {
+    padding: 4rem 0; /* Ensures top/bottom space */
+}
+
+main {
+    margin-top: 80px;
+}
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    padding: 3rem 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
